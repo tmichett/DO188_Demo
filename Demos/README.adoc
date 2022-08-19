@@ -18,4 +18,4 @@ endif::[]
 
 = DO188 Demos
 
-Initial template files for creating the ASCIIDoc books and HTML rendering for Github/Gitlab
+Demos should be updated in the DO188 Notes Project only and not the *DO188_Demo* Project.
