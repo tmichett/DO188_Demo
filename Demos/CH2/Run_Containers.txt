@@ -1,0 +1,3 @@
+podman run registry.ocp4.example.com:8443/ubi8/ubi-minimal:8.5 echo "I'm the Demo from the container"
+
+podman run -e ENV_VAR1='Demo variable 1' -e ENV_VAR2='Demo variable 2' registry.ocp4.example.com:8443/ubi8/ubi-minimal:8.5 printenv ENV_VAR1 ENV_VAR2
