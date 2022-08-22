@@ -1,0 +1,9 @@
+podman run -d -p 8080:80 --name travis-demo  quay.io/tmichett/httpd-custom-demo-new:v1.0
+
+podman ps
+
+curl localhost:8080
+
+podman cp index2.html travis-demo:/var/www/html/index2.html
+
+podman exec -it travis-demo /bin/bash
