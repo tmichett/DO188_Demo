@@ -20,3 +20,5 @@ endif::[]
 :imagesdir: ./images/
 
 * *How Containers Work*: https://wizardzines.com/zines/containers/
+
+* *Exploring the new Podman secret command*: https://www.redhat.com/sysadmin/new-podman-secrets-command
