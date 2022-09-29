@@ -1,0 +1,40 @@
+:pygments-style: tango
+:source-highlighter: pygments
+:toc:
+:toclevels: 7
+:sectnums:
+:sectnumlevels: 6
+:numbered:
+:chapter-label:
+:icons: font
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: ./images/
+
+* *How Containers Work*: https://wizardzines.com/zines/containers/
+
+* *Exploring the new Podman secret command*: https://www.redhat.com/sysadmin/new-podman-secrets-command
+
+* *Podman Docs for Images*: https://docs.podman.io/en/latest/markdown/podman-images.1.html
+
+* *Basic Networking Guide for Podman*: https://github.com/containers/podman/blob/main/docs/tutorials/basic_networking.md
+
+* *Configuring container networking with Podman*: https://www.redhat.com/sysadmin/container-networking-podman
+
+* *Podman 4.0's new network stack: What you need to know*: https://www.redhat.com/sysadmin/podman-new-network-stack
+
+* *How to run pods as systemd services with Podman*: https://www.redhat.com/sysadmin/podman-run-pods-systemd-services
+
+* *5 Podman features to try now*: https://www.redhat.com/sysadmin/podman-features-1
+
+* *How to replace Docker with Podman on a Mac*: https://www.redhat.com/sysadmin/replace-docker-podman-macos
+
+* *Using sensitive data in containers*: https://www.redhat.com/sysadmin/sensitive-data-containers
