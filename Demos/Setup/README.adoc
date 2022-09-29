@@ -27,3 +27,15 @@ endif::[]
 URL: https://192.168.50.50:8443/ or https://registry.ocp4.example.com
 
 UN/PW: developer/developer
+
+
+== Demo Prep
+
+The *Demo_Prep.sh* script will automatically login and download several container images to workstation machine so it doesn't take as long during the course delivery for demos.
+
+.Image List
+
+* registry.ocp4.example.com:8443/ubi8/ubi
+* registry.ocp4.example.com:8443/ubi9/ubi:9.0.0-1468
+* registry.ocp4.example.com:8443/ubi8/httpd-24
+* registry.ocp4.example.com:8443/redhattraining/hello-world-nginx:v1.0
