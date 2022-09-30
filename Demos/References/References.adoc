@@ -38,3 +38,11 @@ endif::[]
 * *How to replace Docker with Podman on a Mac*: https://www.redhat.com/sysadmin/replace-docker-podman-macos
 
 * *Using sensitive data in containers*: https://www.redhat.com/sysadmin/sensitive-data-containers
+
+* *What is a Kubernetes node?*: https://sysdig.com/learn-cloud-native/kubernetes-security/what-is-a-kubernetes-node/
+
+* *What is a Node in Kubernetes?*: https://sysdig.com/learn-cloud-native/kubernetes-101/what-is-a-node-in-kubernetes/
+
+* *Components of Kubernetes*: https://sysdig.com/learn-cloud-native/kubernetes-101/components-of-kubernetes/
+
+* *What is a Kubernetes Cluster?*: https://sysdig.com/learn-cloud-native/kubernetes-101/what-is-a-kubernetes-cluster/
