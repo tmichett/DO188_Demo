@@ -48,3 +48,9 @@ endif::[]
 * *Components of Kubernetes*: https://sysdig.com/learn-cloud-native/kubernetes-101/components-of-kubernetes/
 
 * *What is a Kubernetes Cluster?*: https://sysdig.com/learn-cloud-native/kubernetes-101/what-is-a-kubernetes-cluster/
+
+* *The tool that really runs your containers: deep dive into runc and OCI specifications*: https://mkdev.me/posts/the-tool-that-really-runs-your-containers-deep-dive-into-runc-and-oci-specifications
+
+* *Using runc to explore the OCI Runtime Specification*: https://frasertweedale.github.io/blog-redhat/posts/2021-05-27-oci-runtime-spec-runc.html
+
+* *Journey From Containerization To Orchestration And Beyond*: https://iximiuz.com/en/posts/journey-from-containerization-to-orchestration-and-beyond/
