@@ -54,3 +54,5 @@ endif::[]
 * *Using runc to explore the OCI Runtime Specification*: https://frasertweedale.github.io/blog-redhat/posts/2021-05-27-oci-runtime-spec-runc.html
 
 * *Journey From Containerization To Orchestration And Beyond*: https://iximiuz.com/en/posts/journey-from-containerization-to-orchestration-and-beyond/
+
+* *Containers vs VMs*: https://www.redhat.com/en/topics/containers/containers-vs-vms
