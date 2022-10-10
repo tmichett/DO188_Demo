@@ -56,3 +56,25 @@ endif::[]
 * *Journey From Containerization To Orchestration And Beyond*: https://iximiuz.com/en/posts/journey-from-containerization-to-orchestration-and-beyond/
 
 * *Containers vs VMs*: https://www.redhat.com/en/topics/containers/containers-vs-vms
+
+* *Using volumes with rootless podman, explained*: https://www.tutorialworks.com/podman-rootless-volumes/
+
+* *Running rootless Podman as a non-root user*: https://www.redhat.com/sysadmin/behind-scenes-podman
+
+* *User IDs and (rootless) containers with Podman*: https://blog.christophersmart.com/2021/01/26/user-ids-and-rootless-containers-with-podman/
+
+* *Podman Unshare*: https://docs.podman.io/en/latest/markdown/podman-unshare.1.html
+
+* *General Podman Resources*: https://podman.io/new/2020/09/18/new.html
+
+* *How to run Kubernetes workloads in systemd with Podman*: https://www.redhat.com/sysadmin/kubernetes-workloads-podman-systemd
+
+* *Scanning containers for vulnerabilities with OpenSCAP and Podmam*: https://www.redhat.com/sysadmin/container-vulnerabilities-openscap
+
+* *6 guides on making containers secure*: https://www.redhat.com/sysadmin/making-containers-secure
+
+* *Fedora 31 and Control Group v2*: https://www.redhat.com/sysadmin/fedora-31-control-group-v2
+
+* *Basic security principles for containers and container runtimes*: https://www.redhat.com/sysadmin/basic-security-principles-containers
+
+* *Container video series: Rootless containers, process separation, and OpenSCAP*: https://www.redhat.com/sysadmin/container-video-series
