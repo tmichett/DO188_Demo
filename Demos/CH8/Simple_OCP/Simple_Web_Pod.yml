@@ -1,0 +1,14 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: demo-web-pod
+  namespace: demo-web-project
+spec:
+ serviceAccountName: apache
+ containers:
+ - name: demo-web-container
+   #   image: registry.access.redhat.com/ubi9/httpd-24:1-217.1665076049
+   image: quay.io/tmichett/do188-ocp-web-demo:v1.0 
+   ports:
+   - containerPort: 8080
+
