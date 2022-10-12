@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  annotations:
+    openshift.io/host.generated: "true"
+  creationTimestamp: "2022-10-12T22:58:06Z"
+  labels:
+    run: demo-web-pod
+  name: demo-web-pod
+  namespace: demo-web-project
+  resourceVersion: "706941"
+  uid: a8d71eb6-2cf6-4e49-af17-96af14fe8b38
+spec:
+  host: demo-web-pod-demo-web-project.apps.ocp4.example.com
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: demo-web-pod
+    weight: 100
+  wildcardPolicy: None
+status: {}

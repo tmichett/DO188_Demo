@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: demo-web-pod
+  namespace: demo-web-project
+spec:
+ containers:
+ - name: demo-web-container
+   image: quay.io/tmichett/do188-ocp-web-demo:v1.1 
+   ports:
+   - containerPort: 8080
+
