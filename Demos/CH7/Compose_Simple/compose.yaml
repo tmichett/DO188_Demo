@@ -1,0 +1,10 @@
+services: 
+  website:
+    image: "quay.io/tmichett/httpd-custom-demo-new:v1.0"
+    container_name: "travis-compose-web"
+    networks:
+      - web-net
+    ports:
+      - "10080:80"
+networks:
+ web-net: {}
