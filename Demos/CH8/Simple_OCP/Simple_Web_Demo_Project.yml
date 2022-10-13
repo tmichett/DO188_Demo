@@ -1,0 +1,15 @@
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
+  annotations:
+    openshift.io/description: ""
+    openshift.io/display-name: ""
+    openshift.io/requester: developer
+    openshift.io/sa.scc.supplemental-groups: 1000690000/10000
+    openshift.io/sa.scc.uid-range: 1000690000/10000
+  labels:
+    kubernetes.io/metadata.name: demo-web-project
+  name: demo-web-project
+spec:
+  finalizers:
+  - kubernetes
