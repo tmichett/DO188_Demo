@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: demo-web-pod
+  namespace: demo-web-project
+spec:
+  ingressClassName: demo-web-pod
+  rules:
+  - http:
+      paths:
+      - path: /demo-web
+        pathType: Prefix
+        backend:
+          service:
+            name: demo-web-pod
+            port:
+              number: 8080

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-web-project
+  labels:
+    app: demo-web-pod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demo-web-pod
+  template:
+    metadata:
+      labels:
+        app: demo-web-pod
+    spec:
+      containers:
+      - name: demo-web-pod
+        image: quay.io/tmichett/do188-ocp-web-demo:v1.1
+        ports:
+        - containerPort: 8080
