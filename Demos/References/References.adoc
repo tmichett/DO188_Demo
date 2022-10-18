@@ -81,6 +81,8 @@ endif::[]
 
 * *Container video series: Rootless containers, process separation, and OpenSCAP*: https://www.redhat.com/sysadmin/container-video-series
 
+* *Building Smaller Container Images*: https://fedoramagazine.org/building-smaller-container-images/
+
 
 == OpenShift Extended Demos
 
@@ -91,3 +93,13 @@ endif::[]
 * *OpenShift Examples - Blue/Green Deployments (Dudash)*: https://github.com/dudash/openshiftexamples-bluegreen
 
 * *Using route-based deployment strategies (OCP Docs)* : https://docs.openshift.com/container-platform/4.6/applications/deployments/route-based-deployment-strategies.html
+
+* *Install Ansible Automation Platform on OpenShift Local Ansible*: https://www.ansiblejunky.com/blog/ansible-platform-in-openshift-on-laptop/
+
+== JQ Resources
+
+* *Parsing JSON with jq*: http://www.compciv.org/recipes/cli/jq-for-parsing-json/
+
+* *jq Cheat Sheet*: https://lzone.de/cheat-sheet/jq
+
+* *JQ cheatsheet - A cheatsheet of common jq commands*: https://cameronnokes.com/blog/jq-cheatsheet/
